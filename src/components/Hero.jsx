@@ -11,7 +11,7 @@ const Hero = () => {
             developer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
-            learning reactJS & nodeJS
+            learning reactJS & Laravel
           </p>
           <div className="flex gap-x-4 mt-4">
             <a href="https://github.com/rrusyaidii">
