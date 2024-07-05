@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaLaravel, FaReact } from "react-icons/fa";
+import grocerybud from "./assets/grocerybud.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -64,6 +65,14 @@ export const projects = [
     github: "https://github.com/rrusyaidii/unsplash-images",
     title: "React Unsplash Image Gallery",
     text: "This project is a simple image gallery built with React and Vite that fetches images from the Unsplash API. Users can search for images and view them in a modal window. The app is fully responsive and optimized for mobile devices with light and dark mode options.",
+  },
+  {
+    id: nanoid(),
+    img: grocerybud,
+    url: "https://storied-eclair-538ce0.netlify.app/",
+    github: "https://github.com/rrusyaidii/Grocery-bud",
+    title: "Grocery Bud",
+    text: "This project is a simple React application that allows users to create, edit, and remove items from a grocery list. It uses localStorage to persist data across sessions and react-toastify for notifications.",
   },
   // {
   //   id: nanoid(),
