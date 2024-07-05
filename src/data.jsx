@@ -1,6 +1,8 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaLaravel, FaReact } from "react-icons/fa";
 import grocerybud from "./assets/grocerybud.png";
+import mixmaster from "./assets/mixmaster.png";
+import unsplash from "./assets/unsplash.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -52,7 +54,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: mixmaster,
     url: "https://dancing-queijadas-bf8c62.netlify.app/",
     github: "https://github.com/rrusyaidii/mixmaster",
     title: "MixMaster",
@@ -60,7 +62,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: unsplash,
     url: "https://unrivaled-gecko-2f7af6.netlify.app/",
     github: "https://github.com/rrusyaidii/unsplash-images",
     title: "React Unsplash Image Gallery",
