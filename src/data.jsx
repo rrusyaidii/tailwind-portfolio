@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaLaravel, FaReact } from "react-icons/fa";
+import { FaHtml5, FaJs, FaLaravel, FaReact, FaNodeJs } from "react-icons/fa";
 import grocerybud from "./assets/grocerybud.png";
 import mixmaster from "./assets/mixmaster.png";
 import unsplash from "./assets/unsplash.png";
@@ -48,6 +48,12 @@ export const skills = [
     title: "Laravel",
     icon: <FaLaravel className="h-16 w-16 text-emerald-500" />,
     text: "Currently exploring Laravel, with a growing understanding of its features and best practices for building dynamic and efficient web applications.",
+  },
+  {
+    id: nanoid(),
+    title: "Node.js",
+    icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
+    text: "Currently exploring NodeJS, with a growing understanding of its features and best practices for building dynamic and efficient web applications.",
   },
 ];
 
