@@ -58,14 +58,14 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: nanoid(),
-    img: mixmaster,
-    url: "https://dancing-queijadas-bf8c62.netlify.app/",
-    github: "https://github.com/rrusyaidii/mixmaster",
-    title: "MixMaster",
-    text: "This project is MixMaster, a party sidekick app designed for mixologists and cocktail enthusiasts. It fetches a variety of enchanting drink recipes from the Cocktails DB API. Users can search for cocktails by name and view detailed information, including ingredients, instructions, and images. The app also offers a newsletter subscription for updates and new recipes. MixMaster ensures a seamless experience with comprehensive error handling and user-friendly features.",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: mixmaster,
+  //   url: "https://dancing-queijadas-bf8c62.netlify.app/",
+  //   github: "https://github.com/rrusyaidii/mixmaster",
+  //   title: "MixMaster",
+  //   text: "This project is MixMaster, a party sidekick app designed for mixologists and cocktail enthusiasts. It fetches a variety of enchanting drink recipes from the Cocktails DB API. Users can search for cocktails by name and view detailed information, including ingredients, instructions, and images. The app also offers a newsletter subscription for updates and new recipes. MixMaster ensures a seamless experience with comprehensive error handling and user-friendly features.",
+  // },
   {
     id: nanoid(),
     img: unsplash,
