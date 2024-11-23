@@ -3,7 +3,7 @@ import { FaHtml5, FaJs, FaLaravel, FaReact, FaNodeJs } from "react-icons/fa";
 import grocerybud from "./assets/grocerybud.png";
 import mixmaster from "./assets/mixmaster.png";
 import unsplash from "./assets/unsplash.png";
-import jobsterAPI from "./assets/jobsterAPI.png";
+import comfystore from "./assets/comfystore.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -61,20 +61,29 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: comfystore,
+    url: "https://comfy-store-4t5m.onrender.com",
+    github: "https://github.com/rrusyaidii/comfy-store",
+    title: "ComfyStore",
+    text: "Completed ComfyStore, an e-commerce furniture store application developed with React, Redux, Tailwind CSS, and DaisyUI. The app features a responsive design with both light and dark themes, a fully functional login and registration system, and a test user mode with limited access for exploration. Key functionalities include error handling with a custom 404 page, filter options, grid and list view toggles, and pagination for seamless navigation.",
+  },
+  {
+    id: nanoid(),
     img: mixmaster,
     url: "https://dancing-queijadas-bf8c62.netlify.app/",
     github: "https://github.com/rrusyaidii/mixmaster",
     title: "MixMaster",
     text: "This project is MixMaster, a party sidekick app designed for mixologists and cocktail enthusiasts. It fetches a variety of enchanting drink recipes from the Cocktails DB API. Users can search for cocktails by name and view detailed information, including ingredients, instructions, and images. The app also offers a newsletter subscription for updates and new recipes. MixMaster ensures a seamless experience with comprehensive error handling and user-friendly features.",
   },
-  {
-    id: nanoid(),
-    img: jobsterAPI,
-    url: "https://jobster-api-ih40.onrender.com",
-    github: "https://github.com/rrusyaidii/jobster-api",
-    title: "Jobster API",
-    text: "A backend API developed using Node.js and Express for a job management application. I implemented essential backend functionalities, including CRUD operations, a test user feature with restrictions on CRUD actions, and API rate limiting for security. I also integrated a database population script and used MongoDB Aggregation for generating statistics, enabling users to view insights on job applications over time. The frontend was pre-built, allowing me to focus on robust backend solutions to ensure data integrity and a seamless user experience.",
-  },
+
+  // {
+  //   id: nanoid(),
+  //   img: jobsterAPI,
+  //   url: "https://jobster-api-ih40.onrender.com",
+  //   github: "https://github.com/rrusyaidii/jobster-api",
+  //   title: "Jobster API",
+  //   text: "A backend API developed using Node.js and Express for a job management application. I implemented essential backend functionalities, including CRUD operations, a test user feature with restrictions on CRUD actions, and API rate limiting for security. I also integrated a database population script and used MongoDB Aggregation for generating statistics, enabling users to view insights on job applications over time. The frontend was pre-built, allowing me to focus on robust backend solutions to ensure data integrity and a seamless user experience.",
+  // },
   {
     id: nanoid(),
     img: unsplash,
