@@ -84,14 +84,14 @@ export const projects = [
   //   title: "Jobster API",
   //   text: "A backend API developed using Node.js and Express for a job management application. I implemented essential backend functionalities, including CRUD operations, a test user feature with restrictions on CRUD actions, and API rate limiting for security. I also integrated a database population script and used MongoDB Aggregation for generating statistics, enabling users to view insights on job applications over time. The frontend was pre-built, allowing me to focus on robust backend solutions to ensure data integrity and a seamless user experience.",
   // },
-  {
-    id: nanoid(),
-    img: unsplash,
-    url: "https://unrivaled-gecko-2f7af6.netlify.app/",
-    github: "https://github.com/rrusyaidii/unsplash-images",
-    title: "React Unsplash Image Gallery",
-    text: "This project is a simple image gallery built with React and Vite that fetches images from the Unsplash API. Users can search for images and view them in a modal window. The app is fully responsive and optimized for mobile devices with light and dark mode options.",
-  },
+  // {
+  //   id: nanoid(),
+  //   img: unsplash,
+  //   url: "https://unrivaled-gecko-2f7af6.netlify.app/",
+  //   github: "https://github.com/rrusyaidii/unsplash-images",
+  //   title: "React Unsplash Image Gallery",
+  //   text: "This project is a simple image gallery built with React and Vite that fetches images from the Unsplash API. Users can search for images and view them in a modal window. The app is fully responsive and optimized for mobile devices with light and dark mode options.",
+  // },
   // {
   //   id: nanoid(),
   //   img: grocerybud,
