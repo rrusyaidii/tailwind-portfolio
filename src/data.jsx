@@ -1,5 +1,6 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaLaravel, FaReact, FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import grocerybud from "./assets/grocerybud.png";
 import mixmaster from "./assets/mixmaster.png";
 import unsplash from "./assets/unsplash.png";
@@ -55,6 +56,12 @@ export const skills = [
     title: "Node.js",
     icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
     text: "Currently exploring NodeJS, with a growing understanding of its features and best practices for building dynamic and efficient web applications.",
+  },
+  {
+    id: nanoid(),
+    title: "Next.js",
+    icon: <RiNextjsFill className="h-16 w-16 text-emerald-500" />,
+    text: "Currently exploring Next.js, with a growing understanding of its features and best practices for building dynamic and efficient web applications.",
   },
 ];
 
